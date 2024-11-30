@@ -46,7 +46,7 @@ class LoginController extends Controller
 
     public function generateCsrfToken()
     {
-        return response()->json(['csrf-token' => csrf_token()]);
+        return response()->json(['csrf_token' => csrf_token()]);
     }
 
     // public function login(Request $request)
